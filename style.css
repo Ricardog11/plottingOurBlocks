@@ -1,0 +1,58 @@
+* {
+    font-family:'Times New Roman', Times, serif
+    box-sizing: border-box;
+}
+
+#container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+/* sidebar */
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding-right: 5%;
+}
+.logo {
+    width: 30px;
+}
+
+/* main content */
+.main {
+    border-left: 1px solid rgb(251, 1, 1);
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+}
+
+table {
+    border-collapse:initial;
+    border: 5px solid rgb(243, 6, 6);
+}
+    thead {
+        border-bottom: 3px solid rgb(0, 190, 253);
+    }
+    th, td {
+        padding: 5px 10px;
+        border:4px solid rgb(0, 255, 234) ;
+    }
+
+.hidden {
+    visibility: hidden;
+}
+
+.with-css:after {
+    content: "But with just a little CSS, we can transform the way all the content appears!";
+}
+
+p {
+   color: rgb(17, 0, 255);
+}
